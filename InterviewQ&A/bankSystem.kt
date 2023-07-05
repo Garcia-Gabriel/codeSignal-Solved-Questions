@@ -67,6 +67,15 @@ fun solution(queries: MutableList<MutableList<String>>): MutableList<String> {
 	return results
 }
 
+
+/* Interview Question made by CodeSignal. The objective is to make a bank system that can register accounts, deposit money e transfer money to another account. 
+The Input of the function is a mutable list of mutable lists of strings, and the output must be a mutable list of strings that contains the results of each function. */
+
+// Rules: 	
+// 1st. The solution function must have a mutable list of mutable lists of strings as input and a mutable list of strings as output.
+// 2nd. If all the functions worked as expected, the respective output of the functions CREATE_ACCOUNT, DEPOSIT and TRANSFER, must be Boolean (True), String (client new amount) and String (sender new amount).
+// 3rd. If the functions didn´t worked as expected, the respective output of the functions CREATE_ACCOUNT, DEPOSIT and TRANSFER, must be Boolean (False), Empty String ("") and Empty String("").
+
 // Example:
 var createAccount = mutableListOf("CREATE_ACCOUNT", "12", "Client 1") // True
 var createAccount2 = mutableListOf("CREATE_ACCOUNT", "20", "Client 2") // True
